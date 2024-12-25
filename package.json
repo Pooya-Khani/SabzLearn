@@ -1,0 +1,16 @@
+{
+	"name": "sabzlearn",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"tailwind": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css --watch"
+	},
+	"keywords": [],
+	"author": "Pooya",
+	"license": "ISC",
+	"description": "SabzLearn website remake",
+	"devDependencies": {
+		"tailwindcss": "^3.4.17"
+	}
+}
